@@ -1,0 +1,41 @@
+.employee-details-component{
+    display: flex;
+    margin: auto  auto;
+    margin-top: 2rem;    
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    border : 1px solid black;
+    padding: 2rem 2rem;
+    width: 40vw;
+
+}
+
+label{
+    display: inline;
+}
+
+.employee-name{
+    font-size:2rem;
+    font-weight: bold;
+
+}
+
+.details-field{
+    margin:0.5rem 0;
+}
+
+.details-field-value{
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    margin-right:0.3rem ;
+}
+
+.time-highlight{
+    font-weight: bold;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,55 @@
+.navbar-container{
+    height: 10vh;
+    width: 100vw;
+    /* position: absolute; */
+    /* top : 0; */
+    /* transform: translateY(-100%); */
+    /* background-color: aliceblue; */
+}
+
+.active{
+    height: 10vh;
+    width: 100vw;
+    position: absolute;
+    top : 0;
+    transform: translateY(0%);
+}
+
+.navbar{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul{
+    height: 100%;
+}
+
+ul a{
+    text-decoration: none;
+    color:black;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    padding : 0 2rem;
+    font-size: 1.1rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+
+a:hover{
+    background-color: blue
+    ;
+    color : white;
+    transition: all 0.5s ease;
+}
+

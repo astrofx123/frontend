@@ -1,0 +1,40 @@
+
+
+
+.employee-table-container{
+    /* height: 80vh; */
+    /* width: 100vw; */
+    /* border:1px solid black; */
+    border-radius: 5px;
+    padding:0 2rem; 
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    /* padding:0 3rem;  */
+}
+
+tr{
+    padding:3rem;
+    text-align: left;
+    width: 100%;
+}
+
+thead{
+    border-bottom: 1px solid black;
+    /* display: inline-block; */
+    width: 100%;
+}
+
+tr th{
+    padding:1rem 0;
+    text-transform: capitalize;
+    /* font-size: 0.8rem; */
+}
+
+tr td{
+    padding: 0.5rem 0 ;
+    font-size: 0.9rem;  
+    text-transform: capitalize;
+}

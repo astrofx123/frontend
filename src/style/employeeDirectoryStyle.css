@@ -1,0 +1,32 @@
+
+
+.employeeDirectory-container{
+    height: 50vh;
+    width: 70vw;
+    margin: 1rem auto;
+    /* background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); */
+    /* border-radius: 5px; */
+    /* background-image: url("../pattern.svg");  */
+    /* box-shadow: 2px 2xp 2px grey; */
+    /* background-color: red; */
+
+    
+}
+header{
+    height: 100%;
+    width: 100%;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    /* padding:0 2rem */
+
+}
+
+.site-title{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+

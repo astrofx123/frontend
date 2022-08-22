@@ -1,0 +1,66 @@
+.employeeCreate-container{
+       /* height : 60vh; */
+       /* background-color: green; */
+
+}
+
+label{
+    font-weight: 500;
+    font-size: 0.8rem;
+    display: block;
+}
+
+.add-emp-header{
+    height: 100%;
+    width: 100%;
+    padding:1rem 0;
+    box-shadow: 0 4px 2px -2px gray;
+    /* border-bottom: 1px solid black; */
+}
+
+.form-control{
+    margin:0.8rem 0;
+}
+
+input[type="text"]{
+    height: 1.6rem;
+    border-radius: 5px;
+    outline:none;
+    /* border:1px solid grey; */
+    padding: 0.3rem 1rem
+
+}
+
+.error-message{
+    padding:0.5rem;
+    border:1px solid red;
+    border-radius: 5px;
+    background-color: rgb(231, 119, 119);
+    margin: 1rem 0;
+}
+
+
+form{
+    padding:auto 0;
+    margin-top: 3rem;
+    margin-left: 25vw;
+    padding:2rem 2rem;
+    /* border:0.3px solid black; */
+    width: 45vw;
+    border-radius: 5px;
+    box-shadow: 8px 8px 5px grey;
+}
+
+input[type="submit"]{
+    padding:0.45rem 1rem;
+    border-radius: 5px;
+    border:none;
+    background-color: black ;
+    color:white
+}
+
+select{
+    padding:0.23rem 2rem;
+    border-radius: 5px;
+    border:none;
+}
