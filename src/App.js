@@ -18,11 +18,11 @@ function App() {
           <Route exact path="http://emanageapp.herokuapp.com/" component={EmployeeDirectory}></Route>
           <Route
             exact
-            path="/createemployee"
+            path="http://emanageapp.herokuapp.com/createemployee"
             component={EmployeeCreate}
           ></Route>
-          <Route exact path="/showemployee" component={EmployeeTable}></Route>
-          <Route exact path="/employee/:id" component={EmployeeDetails}></Route>
+          <Route exact path="http://emanageapp.herokuapp.com/showemployee" component={EmployeeTable}></Route>
+          <Route exact path="http://emanageapp.herokuapp.com/employee/:id" component={EmployeeDetails}></Route>
         </Switch>
       </div>
     </BrowserRouter>
