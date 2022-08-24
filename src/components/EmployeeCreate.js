@@ -52,7 +52,7 @@ const EmployeeCreate = () => {
       return;
     } else {
       if (employee.age < 20 || employee.age > 70) {
-        seterrorMessage("Age Shohttps://server-1234563.herokuapp.com/uld Be Between 20-70.");
+        seterrorMessage("Age Should Be Between 20-70.");
       }
     }
 
@@ -91,7 +91,7 @@ const EmployeeCreate = () => {
       `,
     };
 
-    fetch("http://server-1234563/graphql", {
+    fetch("http://server-1234563.herokuapp.com/graphql", {
       method: "POST",
       body: JSON.stringify(requestBody),
       headers: {
