@@ -53,7 +53,7 @@ const EmployeeDetails = (location) => {
       }`,
     };
 
-    fetch("http://localhost:5000/graphql", {
+    fetch("http://server-1234563.herokuapp.com/graphql", {
       method: "POST",
       body: JSON.stringify(editEmployeeQuery),
       headers: {
@@ -86,7 +86,7 @@ const EmployeeDetails = (location) => {
               }`,
     };
 
-    fetch("http://localhost:5000/graphql", {
+    fetch("http://server-1234563.herokuapp.com/graphql", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
