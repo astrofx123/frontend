@@ -15,7 +15,7 @@ function App() {
           <EmployeeDirectory></EmployeeDirectory> */}
 
         <Switch>
-          <Route exact path="http//server-1234563.herokuapp.com/" component={EmployeeDirectory}></Route>
+          <Route exact path="http://server-1234563.herokuapp.com/" component={EmployeeDirectory}></Route>
           <Route
             exact
             path="/createemployee"
