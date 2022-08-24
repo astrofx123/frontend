@@ -67,7 +67,7 @@ const EmployeeTable = () => {
       }`,
     };
 
-    fetch("http://localhost:5000/graphql", {
+    fetch("http://server-1234563.herokuapp.com/graphql", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
